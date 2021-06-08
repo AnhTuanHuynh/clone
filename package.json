@@ -1,0 +1,35 @@
+{
+  "name": "shareone",
+  "version": "1.0.0",
+  "description": "Share file one time",
+  "main": "index.js",
+  "bin": {
+    "shareone": "www.js"
+  },
+  "dependencies": {
+    "archiver": "^5.3.0",
+    "bull": "^3.22.7",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.4",
+    "multer": "^1.4.2",
+    "nanoid": "^3.1.23",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "ws": "^7.4.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "node bin/www.js",
+    "start": "nodemon bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@2359media.github.com:tuanat2359media/shareone.git"
+  },
+  "author": "Tuan Nguyen <tuan.nguyen@2359media.com>",
+  "license": "Apache-2.0"
+}
